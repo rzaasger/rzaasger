@@ -1,0 +1,46 @@
+<form>
+    <h1>Information Form</h1>
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="pwd">Password:</label><br>
+    <input type="password" id="pwd" name="pwd"><br>
+    <label for="gender">Gender:</label><br>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select><br>
+    <label for="favsports">Favourite sports:</label><br>
+    <input type="checkbox" id="football" name="favsports" value="Football">
+    <label for="football">Football</label><br>
+    <input type="checkbox" id="basketball" name="favsports" value="Basketball">
+    <label for="basketball">Basketball</label><br>
+    <input type="checkbox" id="tennis" name="favsports" value="Tennis">
+    <label for="tennis">Tennis</label><br>
+    <input type="checkbox" id="fight" name="favsports" value="Fight">
+    <label for="fight">Fight</label><br>
+    <label for="age">Your Age interval:</label><br>
+    <input type="radio" id="age1" name="age" value="0-15">
+    <label for="age1">0-15</label><br>
+    <input type="radio" id="age2" name="age" value="15-25">
+    <label for="age2">15-25</label><br>
+    <input type="radio" id="age3" name="age" value="25-35">
+    <label for="age3">25-35</label><br>
+    <input type="radio" id="age4" name="age" value="35+">
+    <label for="age4">35+</label><br>
+    <label for="english">English level:</label><br>
+    <input type="range" id="english" name="english" min="1" max="5"><br>
+    <label for="phone">Phone: +994</label><br>
+    <input type="tel" id="phone" name="phone"><br>
+    <label for="favnumber">Fav Number:</label><br>
+    <input type="number" id="favnumber" name="favnumber"><br>
+    <label for="image">Your image:</label><br>
+    <input type="file" id="image" name="image"><br>
+    <label for="about">About you:</label><br>
+    <textarea id="about" name="about"></textarea><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
